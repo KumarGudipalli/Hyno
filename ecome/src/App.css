@@ -1,0 +1,161 @@
+
+.MainNavBAr{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.NavBar_Items{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+  gap: 30px;
+  color: var(--unnamed-color-463f5f);
+  text-align: left;
+  font: normal normal 600 14px/24px Work Sans;
+  color: #463F5F;
+  font-size: 14px;
+}
+
+.NavBar_Items>li{
+list-style: none;
+font-family: sans-serif;
+}
+.NavBar_Input{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.MobileImgs > img{
+  padding: 20px;
+}
+
+.ImgContainer{
+  
+  display: flex;
+
+gap: 200px;
+    
+}
+
+.CenterImg{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+
+}
+
+.Center_Btns{
+  display: flex;
+  gap: 30px;
+
+}
+
+.Center_Btns>:nth-child(1){
+  width: 197.6px;
+  height: 56px;
+  border: 1px solid var(--unnamed-color-463f5f);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 10px #463F5F1A;
+  border: 1px solid #463F5F;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.Center_Btns>:nth-child(2){
+  width: 197.6px;
+  height: 56px;
+  background: var(--unnamed-color-463f5f) 0% 0% no-repeat padding-box;
+background: #463F5F 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 10px #463F5F33;
+border-radius: 4px;
+opacity: 1;
+color: #FFFFFF
+}
+
+.MainContainer{
+  display: flex;
+  justify-content: space-around;
+
+}
+.ColorBalls{
+  display: flex;
+  gap: 20px;
+}
+
+.Store-Btns{
+  top: 616px;
+  left: 1196px;
+  width: 108px;
+  height: 48px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 16px #463F5F1A;
+  border-radius: 4px;
+  opacity: 1;
+
+}
+
+.Store{
+  display: flex;
+  gap: 10px;
+}
+
+.Product_Store{
+  display: flex;
+  gap: 30px;
+  /* justify-content: space-around; */
+}
+
+.Top_Navbar{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+ font-size: small;
+  padding: 0px 10px;
+  color: white;
+  background-color: #463F5F;
+}
+
+.Price{
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  align-items: center;
+
+}
+.Price > li{
+  text-decoration: line-through;
+  list-style: none;
+  color: #B7BDC1;
+}
+
+.Logo{
+  font-family: sans-serif;
+  border: 5px solid #463F5F;
+  color: #463F5F;
+  padding: 3px  18px;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+.wish{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.InputBox{
+  border :none;
+  border-bottom: 1px solid #B7BDC1;
+  padding: 10px 25px;
+  
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
